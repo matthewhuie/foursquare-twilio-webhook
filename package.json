@@ -1,0 +1,11 @@
+{
+  "name": "foursquare-pilgrimsdk-webhook",
+  "version": "0.0.1",
+  "main": "app.coffee",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewhuie/node-foursquare-pilgrimsdk-webhook.git"
+  },
+  "author": "Matthew Huie",
+  "license": "ISC"
+}
