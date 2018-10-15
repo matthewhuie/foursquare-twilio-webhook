@@ -7,7 +7,8 @@ app.use bodyparser.urlencoded
   extended: false
 
 app.post '/pilgrimsdk', (req, res) ->
-  if req.body.secret == process.env.FOURSQUARE_PUSH_SECRET 
+  if req.body.secret == process.env.FOURSQUARE_PUSH_SECRET
+    # Do something with the visit here
     console.log req.body.json
     res.sendStatus 200
   else
