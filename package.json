@@ -14,6 +14,9 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "coffee-script": "^1.12.7",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "request": "^2.88.0",
+    "twilio": "^3.28.1",
+    "underscore": "^1.9.1"
   }
 }
