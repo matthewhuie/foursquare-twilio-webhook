@@ -6,10 +6,9 @@ app.use express.static 'web'
 app.use bodyparser.urlencoded
   extended: false
 
-app.post '/pilgrimsdk', (req, res) ->
-  if req.body.secret == process.env.FOURSQUARE_PUSH_SECRET
-    # Do something with the visit here
-    console.log req.body.json
+app.post '/twilio', (req, res) ->
+  if req.body.AccountSid == process.env.TWILIO_ACCOUNT_SID
+    console.log req.body.AccountSid
     res.sendStatus 200
   else
     res.sendStatus 401
